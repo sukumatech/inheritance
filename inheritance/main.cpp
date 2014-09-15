@@ -7,12 +7,23 @@
 //
 
 #include <iostream>
+#include "dog.h"
+#include "mammal.h"
+
+using namespace std;
+
 
 int main(int argc, const char * argv[])
 {
 
-    // insert code here...
-    std::cout << "Hello, World!\n";
+    Mbwa Simba;
+    Simba.Speak();
+    Simba.WagTail();
+    cout << "Simba is this old: " << Simba.GetAge() << endl;
+    Simba.SetAge(10);
+    cout << "Simba is this old: " << Simba.GetAge() << endl;
+    cout << Simba.getBreed() << endl;
+    
     return 0;
 }
 

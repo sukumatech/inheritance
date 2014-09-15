@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		C8626D8019786F60001F1E22 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C8626D7F19786F60001F1E22 /* main.cpp */; };
 		C8626D8219786F60001F1E22 /* inheritance.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = C8626D8119786F60001F1E22 /* inheritance.1 */; };
+		C8626D8A19786F9F001F1E22 /* mammal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C8626D8819786F9F001F1E22 /* mammal.cpp */; };
+		C8626D8D19786FB1001F1E22 /* dog.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C8626D8B19786FB1001F1E22 /* dog.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +30,10 @@
 		C8626D7C19786F60001F1E22 /* inheritance */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = inheritance; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8626D7F19786F60001F1E22 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C8626D8119786F60001F1E22 /* inheritance.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = inheritance.1; sourceTree = "<group>"; };
+		C8626D8819786F9F001F1E22 /* mammal.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mammal.cpp; sourceTree = "<group>"; };
+		C8626D8919786F9F001F1E22 /* mammal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mammal.h; sourceTree = "<group>"; };
+		C8626D8B19786FB1001F1E22 /* dog.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = dog.cpp; sourceTree = "<group>"; };
+		C8626D8C19786FB1001F1E22 /* dog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dog.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,10 @@
 			children = (
 				C8626D7F19786F60001F1E22 /* main.cpp */,
 				C8626D8119786F60001F1E22 /* inheritance.1 */,
+				C8626D8819786F9F001F1E22 /* mammal.cpp */,
+				C8626D8919786F9F001F1E22 /* mammal.h */,
+				C8626D8B19786FB1001F1E22 /* dog.cpp */,
+				C8626D8C19786FB1001F1E22 /* dog.h */,
 			);
 			path = inheritance;
 			sourceTree = "<group>";
@@ -117,6 +127,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8626D8D19786FB1001F1E22 /* dog.cpp in Sources */,
+				C8626D8A19786F9F001F1E22 /* mammal.cpp in Sources */,
 				C8626D8019786F60001F1E22 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -227,6 +239,7 @@
 				C8626D8719786F60001F1E22 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
